@@ -14,7 +14,7 @@ Using Google Colab notebook, pyspark, and sample reviews from an Amazon S3 datab
 
 ## Results ##
 
-The results can be reviewed in the ipynp file located [link to results](https://github.com/shivam0921/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb) 
+TheCode and Results can be Found: [Code and Results](https://github.com/shivam0921/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb) 
 
 * **How many Vine reviews and non-Vine reviews were there?** 
 
@@ -30,4 +30,7 @@ A total of 15,689 unpaid 5 star reviews were in the sample database and only 20 
 
 
 ## Summary ##
-Given the significantly larger percentage of 5-star reviews in the unpaid population vs. the paid population it is clear that the paid Vine reviews, and 5-star reviews in particular, would not have a significant impact on the overall bias. What is not clear, however, is if that small percentage of paid  5 star reviews had an impact on those who submitted positive unpaid reviews. An additional analysis that could explore whether the paid reviews had an influence over the positively of the unpaid reviews is to look at the date and time when the paid 5-star reviews were posted vs. the unpaid positive reviews.
+After looking that the results, I would conclude that there is a positivity bias for reviews in the Vine program of 5-star reviews in the unpaid population vs. the paid population it is clear that the paid Vine reviews, and 5-star reviews in particular, would not have a significant impact on the overall bias. What is not clear, however, is if that small percentage of paid  5 star reviews had an impact on those who submitted positive unpaid reviews. 
+
+
+An additional analysis that could explore whether the paid reviews had an influence over the positively of the unpaid reviews is to look at the date and time when the paid 5-star reviews were posted vs. the unpaid positive reviews.
